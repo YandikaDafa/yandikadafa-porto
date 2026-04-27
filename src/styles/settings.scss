@@ -1,0 +1,12 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+@use 'vuetify/settings' with (
+  $color-pack: true,
+  $body-font-family: ('Neue Haas Grotesk Display Pro', sans-serif),
+  $heading-font-family: ('Neue Haas Grotesk Display Pro', sans-serif)
+);
