@@ -1,10 +1,11 @@
 # fhfernandito-porto — Portfolio
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Made with Vue.js](https://img.shields.io/badge/Vue.js-3.5.21-646CFF)](https://vuejs.org/)
 
 Personal portfolio website of **F. Hanindya Fernandito**.
 
-🌐 Live: [fhfernandito-porto.naviacs.com](https://fhfernandito-porto.naviacs.com)  
+🌐 Live: [fhfernandito-porto.vercel.app](https://fhfernandito-porto.vercel.app)  
 📁 GitHub: [github.com/fhfernandito/fhfernandito-porto](https://github.com/fhfernandito/fhfernandito-porto)
     
 ---
@@ -15,7 +16,7 @@ This project is open to clone and use as a **reference or template**, but with t
 
 - ✅ You **must credit** the original author: **F. Hanindya Fernandito**
 - ✅ You **must include a link** to the original repository: [github.com/fhfernandito/fhfernandito-porto](https://github.com/fhfernandito/fhfernandito-porto)
-- ✅ You **must include a link** to the original website: [fhfernandito-porto.naviacs.com](https://fhfernandito-porto.naviacs.com)
+- ✅ You **must include a link** to the original website: [fhfernandito-porto.vercel.app](https://fhfernandito-porto.vercel.app)
 - ❌ You **may not** claim this work as your own
 - ❌ You **may not** use the personal content (projects, bio, images) as-is
 
