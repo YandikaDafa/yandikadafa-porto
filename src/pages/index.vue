@@ -5,9 +5,27 @@
     class="d-flex align-center justify-center flex-column position-relative ga-6"
     min-height="100vh"
   >
-    <div class="mb-18" style="position: relative; z-index: 10;">
-      <v-chip border variant="tonal">Hello, welcome back to my ... Btw, I'm founder of&nbsp;<a href="https://naviacs.com" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Navia</a>&nbsp;and&nbsp;<a href="https://mejaku.id" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Mejaku</a>.</v-chip>
-    </div>
+    <div style="position: relative; z-index: 10;">
+      <div>
+        <div class="text-center mb-3">
+          <a href="https://www.paypal.com/paypalme/fhfernandito">
+            <v-avatar
+              v-tooltip:top="'Donate me 😁'"
+              size="60"
+              color="blue-lighten-5"        
+              border                  
+            >
+              <v-icon>
+                <svg viewBox="7.056000232696533 3 37.35095977783203 45"><g xmlns="http://www.w3.org/2000/svg" clip-path="url(#paypal__a)"><path fill="#002991" d="M38.914 13.35c0 5.574-5.144 12.15-12.927 12.15H18.49l-.368 2.322L16.373 39H7.056l5.605-36h15.095c5.083 0 9.082 2.833 10.555 6.77a9.687 9.687 0 0 1 .603 3.58z"/><path fill="#60CDFF" d="M44.284 23.7A12.894 12.894 0 0 1 31.53 34.5h-5.206L24.157 48H14.89l1.483-9 1.75-11.178.367-2.322h7.497c7.773 0 12.927-6.576 12.927-12.15 3.825 1.974 6.055 5.963 5.37 10.35z"/><path fill="#008CFF" d="M38.914 13.35C37.31 12.511 35.365 12 33.248 12h-12.64L18.49 25.5h7.497c7.773 0 12.927-6.576 12.927-12.15z"/></g></svg>
+              </v-icon>
+            </v-avatar>      
+          </a>
+        </div> 
+      </div>
+      <div>
+        <v-chip border variant="tonal">Hello, welcome back to my? Btw, I'm founder of&nbsp;<a href="https://naviacs.com" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Navia</a>&nbsp;and&nbsp;<a href="https://mejaku.id" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Mejaku</a>.</v-chip>
+      </div>
+    </div>    
     <div style="pointer-events: none;">
       <p 
         style="font-size: clamp(4rem, 15vw, 15rem); line-height: 0.8;" class="opacity-10 text-center"
@@ -121,8 +139,8 @@
       >
         please
       </p>
-    </div>
-    <div class="mt-16 overflow-hidden" style="width: 100vw; max-width: 100vw;">      
+    </div>    
+    <div class="mt-1 overflow-hidden" style="width: 100vw; max-width: 100vw;">      
       <div class="marquee-container d-flex ga-4">
         <!-- Render 3 blocks to guarantee it overflows enough for seamless looping on ultra-wide screens -->
         <div class="marquee-content d-flex ga-4" v-for="i in 3" :key="i" :aria-hidden="i !== 1">
@@ -137,7 +155,7 @@
           <v-card variant="tonal" class="py-4 px-8 text-no-wrap" rounded="pill">Vercel</v-card>
         </div>
       </div>
-    </div>
+    </div>       
   </v-container>   
 
   <v-container
@@ -253,8 +271,10 @@
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
+import SplitText from 'gsap/src/SplitText';
 import { mergeProps } from 'vue';
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, SplitText);
+
 
 const quoteContainerRef = ref();
 const quoteTextRef = ref();
@@ -345,25 +365,26 @@ const projects = ref([
 ]);
 
 const animation = async () => {
-  gsap.utils.toArray(".line-animation").forEach((el, index) => {
-    gsap.fromTo(
-      el,
-      {
-        y: 300,
+  gsap.utils.toArray(".line-animation").forEach((el) => {
+    SplitText.create(el, {
+      type: "words",
+      mask: "words",
+      autoSplit: true,
+      onSplit(self) {
+        return gsap.from(self.words, {
+          yPercent: 100,
+          duration: 0.8,
+          ease: "power4.out",
+          stagger: 0.01,
+          scrollTrigger: {
+            trigger: el,
+            start: "top 130%",
+            toggleActions: "play none none reverse",
+          },
+        });
       },
-      {
-        y: 0,
-        duration: 1,
-        ease: "power4.out",
-        delay: index * 0.01,
-        scrollTrigger: {
-          trigger: el,
-          start: "top 130%",
-          toggleActions: "play none none reverse",
-        },
-      }
-    );
-  });  
+    });
+  }); 
 
   let mm = gsap.matchMedia();
   // mm.add("@media (min-width: 600px)", () => {
