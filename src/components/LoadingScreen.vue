@@ -4,7 +4,7 @@
       <!-- Full Name: Navia Creative Studio -->
       <div class="full-name-container" ref="fullNameContainerRef">
         <h2 ref="fullNameRef" class="full-name">
-          F. Hanindya Fernandito
+          I Putu Yandika Dafa Pratama
         </h2>
       </div>
 
