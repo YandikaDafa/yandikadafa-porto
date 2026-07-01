@@ -4,7 +4,7 @@ export const creators = [
         name: "F. Hanindya Fernandito",
         role: "Software Engineer",
         profile: {
-          link: "https://www.linkedin.com/in/f-hanindya-fernandito-4b1bb117a/",
+          link: "https://www.linkedin.com/in/i-putu-yandika-dafa-pratama-214857331/",
           icon: "mdi-linkedin",
         },
         image: "/creatorImages/yuli.jpg",
