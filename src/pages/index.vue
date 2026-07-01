@@ -34,7 +34,7 @@
       <p 
         style="font-size: clamp(4rem, 15vw, 15rem); line-height: 0.8;" class="opacity-10 text-center"
       >
-        hire me
+        
       </p>
     </div>    
     <div class="d-flex flex-wrap align-center justify-center ga-2">
@@ -141,7 +141,7 @@
       <p 
         style="font-size: clamp(4rem, 15vw, 15rem); line-height: 0.8;" class="opacity-10 text-center"
       >
-        please
+        
       </p>
     </div>    
     <div class="mt-1 overflow-hidden" style="width: 100vw; max-width: 100vw;">      
