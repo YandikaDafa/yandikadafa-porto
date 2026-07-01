@@ -311,9 +311,8 @@ const projects = ref([
     title: "Blackgarlic",
     tech: `Nuxt.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Webhook${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AWS (S3)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Google Auth`,
     link: [
-      { label: "Website", url: "https://hellocrew.id" },
-      { label: "TikTok 1", url: "https://vt.tiktok.com/ZS9hDrjFY/" },
-      { label: "TikTok 2", url: "https://vt.tiktok.com/ZS9YxbDPL/" }
+      { label: "Website", url: "https://yandikadafa.vercel.app/blackgarlic" }, 
+      { label: "WhatsApp", url: "https://wa.me/628135988482" } 
     ],
     image: "/projects/blackgarlic.png",
     introduction: "\"blackgarlic\" - A digital product catalog platform designed to showcase a curated selection of healthy meal-kit offerings. This platform functions as a centralized hub for users to explore various menu options, view detailed ingredients, and understand the nutritional value of each culinary package. By focusing on a user-friendly browsing experience, Black Garlic simplifies the customer's journey from product discovery to selection, ensuring clear information presentation and an engaging interface for food enthusiasts.",
@@ -327,40 +326,6 @@ const projects = ref([
     image: "/projects/LOGO SAKU2.png",
     introduction: "\"Saku\" - An intuitive UI/UX design project for a personal finance management application. As the UI/UX designer, I focused on creating a seamless and user-centric experience for expense tracking. This involved developing a clean, centralized interface that allows users to effortlessly record daily transactions, categorize spending, and visualize financial habits. The design prioritizes clarity and simplicity to empower users in managing their personal cash flow and achieving better financial control through a modern, efficient digital interface.",
   },
-  {
-    title: "Plan Maintenance System (PMS)",
-    tech: `Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Python${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Leaflet${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}DeepL (Translation)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}PWA${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Electron`,
-    link: [
-      { label: "Website", url: "https://pms.sevenoceans.co.id" }
-    ],
-    image: "/projects/pms.png",    
-    introduction: "Plan Maintenance System (PMS) is an all-in-one platform designed to streamline maritime operations end to end—centralizing personnel onboard management, ship certificate tracking, real-time dashboards, and GPS-based visibility. It keeps crew duties, monitors every vessel certificate from issue to expiry with clear highlights for renewals, and provides live insights into ship condition, engine performance, and consumables through intuitive reporting. With GPS integration—augmented by ocean data such as weather and wave information—the PMS supports safer navigation and smarter route planning, helping owners and operators boost compliance, efficiency, and decision-making across their fleets.",
-  },
-  {
-    title: "SeaLinks",
-    tech: `Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Capacitor${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Firebase (Cloud Messaging)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Pusher (Realtime Chat)`,
-    link: null,
-    image: "/projects/sealinks.webp",    
-    introduction: "A mobile app (Android/IOS) for maritime industry. This app is offer and booking system between vessel owners and cargo owners. Features include vessel listing, booking management, chatting, and notifications. This app is designed to streamline the booking process and improve communication between vessel owners and cargo owners.",
-  },
-  {
-    title: "PT Seven Oceans Technology Services (Company Profile)",
-    tech: `WebGL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}GSAP${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Vuetify${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel`,
-    link: [
-      { label: "Website", url: "https://sots.sevenoceans.co.id" }
-    ],
-    image: "/projects/sots.png",    
-    introduction: "PT Seven Oceans Technology Services is a technology company focused on developing reliable and innovative digital solutions. We build and deliver custom-made software tailored to client needs or as ready-to-use products. With experience across multiple sectors from maritime and industrial to digital enterprise. We provide efficient, secure, and results oriented technology integration.",
-  },  
-  {
-    title: "Seven Oceans Group (Company Profile)",
-    tech: `Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Vuetify${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel`,
-    link: [
-      { label: "Website", url: "https://sevenoceans.co.id" }
-    ],
-    image: "/projects/sogcompro.png",    
-    introduction: "Seven Oceans Group is a leading maritime company that provides comprehensive solutions for the maritime industry, including ship management, crew management, and vessel maintenance. The company is committed to providing innovative and efficient solutions to meet the needs of its clients and contribute to the growth of the maritime industry.",
-  },
   {    
     title: "Roomar",
     tech: `Wordpress`,
@@ -369,15 +334,6 @@ const projects = ref([
     ],
     image: "/projects/roomar.png",    
     introduction: "An e-commerce website for Roomar, a parfume and diffuser brand, to showcase and sell their products online.",
-  },
-  {    
-    title: "Grha Pengharapan",
-    tech: `Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL`,
-    link: [
-      { label: "Website", url: "https://grhapengharapan.org" }
-    ],
-    image: "/projects/grhapengharapan.png",    
-    introduction: "A property management website for Grha Pengharapan Church to manage their organization data, events, and resources efficiently. Features include event scheduling, resource allocation, and member management.",
   },
 ]);
 
