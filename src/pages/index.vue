@@ -302,7 +302,7 @@ const projects = ref([
     tech: `Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Midtrans${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AWS (S3)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Resend${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AI (Gemini)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Bluetooth Navigator (Print Receipt)`,
     link: [
       { label: "Website", url: "https://maijanitour.com" },
-      { label: "Instagram", url: "https://www.instagram.com/maijanitour/" }
+      { label: "WhatsApp", url: "https://wa.me/6281558716994" }
     ],
     image: "/projects/logotour.png",
     introduction: "Nyoman Tour (maijanitour.com) is a comprehensive web-based information system designed to streamline travel and tour guide services. Tailored for Nyoman Tour Transport, the platform simplifies the booking and management process, allowing customers to easily explore travel packages and services. Beyond basic booking, the system offers centralized management for tour schedules and transport coordination, providing a seamless digital experience that enhances customer convenience and business efficiency in the tourism sector.",
@@ -311,7 +311,7 @@ const projects = ref([
     title: "Blackgarlic",
     tech: `Nuxt.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Webhook${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AWS (S3)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Google Auth`,
     link: [
-      { label: "Website", url: "https://yandikadafa.vercel.app/blackgarlic" }, 
+      { label: "Website", url: "https://catalog-blackgarlic.vercel.app/" }, 
       { label: "WhatsApp", url: "https://wa.me/628135988482" } 
     ],
     image: "/projects/blackgarlic.png",
