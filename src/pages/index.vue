@@ -15,7 +15,7 @@
             color="blue-lighten-5"
             border
           >
-            <span style="font-weight: bold; color: #118EEA; font-size: 14px;">DANA</span>
+            <span style="font-weight: bold; color: #118EEA; font-size: 14px;">Clik me!!</span>
           </v-avatar>
         </a>
       </div>
