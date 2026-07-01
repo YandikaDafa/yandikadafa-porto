@@ -308,24 +308,24 @@ const projects = ref([
     introduction: "Nyoman Tour (maijanitour.com) is a comprehensive web-based information system designed to streamline travel and tour guide services. Tailored for Nyoman Tour Transport, the platform simplifies the booking and management process, allowing customers to easily explore travel packages and services. Beyond basic booking, the system offers centralized management for tour schedules and transport coordination, providing a seamless digital experience that enhances customer convenience and business efficiency in the tourism sector.",
   },
   {    
-    title: "Hello Crew",
+    title: "Blackgarlic",
     tech: `Nuxt.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Webhook${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AWS (S3)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Google Auth`,
     link: [
       { label: "Website", url: "https://hellocrew.id" },
       { label: "TikTok 1", url: "https://vt.tiktok.com/ZS9hDrjFY/" },
       { label: "TikTok 2", url: "https://vt.tiktok.com/ZS9YxbDPL/" }
     ],
-    image: "/projects/hellocrew.png",
-    introduction: "\"The Global Seafarer Hub\" - A centralized platform functioning as the primary database and dedicated career portal for seafarers. This is the central hub where all seafarers register accounts, complete profiles, and upload documents or certificates. Hello Crew is responsible for aggregating and displaying the complete list of job vacancies from various shipping companies integrated within the ecosystem.",
+    image: "/projects/Saku.png",
+    introduction: "\"Saku\" - A centralized platform functioning as the primary database and dedicated career portal for seafarers. This is the central hub where all seafarers register accounts, complete profiles, and upload documents or certificates. Hello Crew is responsible for aggregating and displaying the complete list of job vacancies from various shipping companies integrated within the ecosystem.",
   },
   {    
-    title: "Hello Crew Enterprise",
+    title: "Saku",
     tech: `Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}PWA${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Webhook${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AWS (S3)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AI (Gemini)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Google Auth`,
     link: [
-      { label: "Website", url: "https://hellocrew-sosm.sevenoceans.co.id" }
-    ],
-    image: "/projects/hellocrewenterprise.png",
-    introduction: "\"The Crewing Agency Operation System\" - An AI-powered internal management platform tailored for shipping companies. While initial account registration occurs on the main Hello Crew hub, all core operational workflows—from job applications, sign-on/sign-off processes, and work record tracking, to performance evaluations—are fully managed within Hello Crew Enterprise. Enhanced by AI capabilities (powered by Gemini), the system streamlines complex crew management tasks and seamlessly transmits experience data and evaluations back to the main hub, ensuring seafarer reputations remain continuously and accurately updated.",
+  { label: "Figma", url: "https://www.figma.com/design/Q42ilHpaseCDnsIvdZfBin/prototipe?node-id=0-1&t=LwkVUkp0AbEPTXsz-1" }
+],
+    image: "/projects/LOGO SAKU2.png",
+    introduction: "\"Saku\" - An intuitive UI/UX design project for a personal finance management application. As the UI/UX designer, I focused on creating a seamless and user-centric experience for expense tracking. This involved developing a clean, centralized interface that allows users to effortlessly record daily transactions, categorize spending, and visualize financial habits. The design prioritizes clarity and simplicity to empower users in managing their personal cash flow and achieving better financial control through a modern, efficient digital interface.",
   },
   {
     title: "Plan Maintenance System (PMS)",
