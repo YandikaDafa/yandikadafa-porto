@@ -304,7 +304,7 @@ const projects = ref([
       { label: "Website", url: "https://maijanitour.com" },
       { label: "Instagram", url: "https://www.instagram.com/maijanitour/" }
     ],
-    image: "/projects/LOGO Tour.png",
+    image: "/projects/logotour.png",
     introduction: "Nyoman Tour (maijanitour.com) is a comprehensive web-based information system designed to streamline travel and tour guide services. Tailored for Nyoman Tour Transport, the platform simplifies the booking and management process, allowing customers to easily explore travel packages and services. Beyond basic booking, the system offers centralized management for tour schedules and transport coordination, providing a seamless digital experience that enhances customer convenience and business efficiency in the tourism sector.",
   },
   {    
@@ -315,8 +315,8 @@ const projects = ref([
       { label: "TikTok 1", url: "https://vt.tiktok.com/ZS9hDrjFY/" },
       { label: "TikTok 2", url: "https://vt.tiktok.com/ZS9YxbDPL/" }
     ],
-    image: "/projects/Saku.png",
-    introduction: "\"Saku\" - A centralized platform functioning as the primary database and dedicated career portal for seafarers. This is the central hub where all seafarers register accounts, complete profiles, and upload documents or certificates. Hello Crew is responsible for aggregating and displaying the complete list of job vacancies from various shipping companies integrated within the ecosystem.",
+    image: "/projects/blackgarlic.png",
+    introduction: "\"blackgarlic\" - A digital product catalog platform designed to showcase a curated selection of healthy meal-kit offerings. This platform functions as a centralized hub for users to explore various menu options, view detailed ingredients, and understand the nutritional value of each culinary package. By focusing on a user-friendly browsing experience, Black Garlic simplifies the customer's journey from product discovery to selection, ensuring clear information presentation and an engaging interface for food enthusiasts.",
   },
   {    
     title: "Saku",
