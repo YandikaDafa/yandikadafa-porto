@@ -10,7 +10,7 @@
   >
     <template #prepend>           
       <div class="d-flex flex-column">
-        <p>F. Hanindya Fernandito</p>
+        <p>I Putu Yandika Dafa Pratama</p>
         <p class="text-body-2 opacity-50">Software Engineer</p>
       </div> 
     </template>       
