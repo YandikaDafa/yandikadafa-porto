@@ -298,14 +298,14 @@ const quoteTextRef = ref();
 
 const projects = ref([
   {    
-    title: "Mejaku",
+    title: "MaiJaniTour",
     tech: `Vue.js${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Laravel${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}MySQL${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Midtrans${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AWS (S3)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Resend${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}AI (Gemini)${"\u00A0"}${"\u00A0"}•${"\u00A0"}${"\u00A0"}Bluetooth Navigator (Print Receipt)`,
     link: [
-      { label: "Website", url: "https://mejaku.id" },
-      { label: "Instagram", url: "https://www.instagram.com/mejakuid/" }
+      { label: "Website", url: "https://maijanitour.com" },
+      { label: "Instagram", url: "https://www.instagram.com/maijanitour/" }
     ],
-    image: "/projects/mejaku.png",
-    introduction: "Mejaku is an AI-powered Software-as-a-Service (SaaS) Point of Sale platform designed to streamline F&B operations. It features an intelligent cashier module tailored for dine-in services and an integrated table management system that empowers customers to place direct orders via QR codes. Enhanced by AI capabilities (powered by Gemini), the platform goes beyond basic transactions to offer centralized multi-outlet management, comprehensive product and inventory control, visual analytics for business performance tracking, role-based staff authorization, and seamless hardware integration for thermal receipt printers and payment gateways.",
+    image: "/projects/LOGO Tour.png",
+    introduction: "Nyoman Tour (maijanitour.com) is a comprehensive web-based information system designed to streamline travel and tour guide services. Tailored for Nyoman Tour Transport, the platform simplifies the booking and management process, allowing customers to easily explore travel packages and services. Beyond basic booking, the system offers centralized management for tour schedules and transport coordination, providing a seamless digital experience that enhances customer convenience and business efficiency in the tourism sector.",
   },
   {    
     title: "Hello Crew",
