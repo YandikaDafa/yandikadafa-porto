@@ -40,8 +40,12 @@
 
 
       <div>
-        <v-chip border variant="tonal">Hello, welcome back to my? Btw, I'm founder of&nbsp;<a href="https://naviacs.com" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Navia</a>&nbsp;and&nbsp;<a href="https://mejaku.id" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Mejaku</a>.</v-chip>
-      </div>
+      <v-chip border variant="tonal">
+        Hello, welcome back to my? Btw, I'm founder of&nbsp;
+        <a href="https://maijanitour.com" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Nyoman Tour</a>&nbsp;and&nbsp;
+        <a href="https://catalog-blackgarlic.vercel.app/" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Dewata Black Garlic</a>.
+      </v-chip>
+    </div>
     </div>    
     <div style="pointer-events: none;">
       <p 
