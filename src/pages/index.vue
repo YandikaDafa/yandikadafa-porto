@@ -19,16 +19,10 @@
           </v-avatar>
         </a>
       </div>
-    </div> 
-
-
-      <div>
-      <v-chip border variant="tonal">
-        Hello, welcome back to my? Btw, I'm founder of&nbsp;
-        <a href="https://maijanitour.com" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Nyoman Tour</a>&nbsp;and&nbsp;
-        <a href="https://catalog-blackgarlic.vercel.app/" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Dewata Black Garlic</a>.
-      </v-chip>
     </div>
+      <div>
+        <v-chip border variant="tonal">Hello, welcome back to my? Btw, I'm founder of&nbsp;<a href="https://maijanitour.com" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Nyoman Tour</a>&nbsp;and&nbsp;<a href="https://catalog-blackgarlic.vercel.app/" target="_blank" class="text-decoration-underline text-black" style="pointer-events: auto;">Dewata Black Garlic</a>.</v-chip>
+      </div>
     </div>    
     <div style="pointer-events: none;">
       <p 
